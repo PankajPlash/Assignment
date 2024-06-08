@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/PankajPlash/Assignment.git/static/css/main.7390e649.css",
+    "main.js": "/PankajPlash/Assignment.git/static/js/main.3a637a5f.js",
+    "static/js/453.51b20bab.chunk.js": "/PankajPlash/Assignment.git/static/js/453.51b20bab.chunk.js",
+    "index.html": "/PankajPlash/Assignment.git/index.html",
+    "main.7390e649.css.map": "/PankajPlash/Assignment.git/static/css/main.7390e649.css.map",
+    "main.3a637a5f.js.map": "/PankajPlash/Assignment.git/static/js/main.3a637a5f.js.map",
+    "453.51b20bab.chunk.js.map": "/PankajPlash/Assignment.git/static/js/453.51b20bab.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7390e649.css",
+    "static/js/main.3a637a5f.js"
+  ]
+}
