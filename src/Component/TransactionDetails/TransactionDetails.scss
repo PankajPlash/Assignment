@@ -1,0 +1,24 @@
+.trans_container {
+    background-color: #0a1f30;
+    padding: 25px;
+    border-radius: 5px;
+
+    .trans_data_container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .btn_cont button{
+            padding: 10px 25px;
+            border: none;
+            border-radius: 10px;
+            background-color: #01B58A;
+            color: white;
+        }
+        .txt_id_con{
+            .txd_id{
+                font-size: 18px;
+                color: #01B58A;
+            } 
+        }
+    }
+}

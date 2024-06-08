@@ -1,0 +1,17 @@
+.table_container{   
+    .table_mange_container{
+        border: 1px solid red;
+        height: calc(100vh - 140px);
+        overflow-y: auto;
+    }
+    .table_mange_container table{
+        border-collapse: collapse;
+        width: 100%;
+        height: 100%;
+
+    }
+    .table_mange_container table tr th,  .table_mange_container table tr td{
+        border: 1px solid red;
+        text-align: center;
+    }
+}

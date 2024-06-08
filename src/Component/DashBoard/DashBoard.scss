@@ -1,0 +1,116 @@
+.dashBoard_container {
+    padding: 15px 20px 20px 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+
+    .dashBoard_text_con {
+        .dashboard_text {
+            font-size: 24px;
+            font-family: sans-serif;
+            font-weight: 600;
+            color: white;
+        }
+
+        .welcome_text {
+            font-size: 18px;
+            color: #8aaf8a;
+            ;
+            font-family: ystem-ui;
+            font-weight: 600;
+        }
+    }
+
+    .dashBoardData_container {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 10px;
+
+        .card_item {
+            border: 1px solid #01B58A;
+            border-radius: 15px;
+            flex-grow: 1;
+            flex: 1 1 340px;
+        }
+    }
+
+    .lineChart,
+    .transaction_container,
+    .revenui-gen-data {
+        border: 1px solid #01B58A;
+        min-height: 300px;
+        max-height: 300px;
+        border-radius: 10px;
+        background-color: #0a1f30;
+    }
+
+    .lineChart .line_chart,
+    .bar_chart_container,
+    .pie_chart_cont {
+        padding: 0px !important;
+        min-height: 100%;
+        max-height: 100%;
+    }
+
+    .revenui-gen .lineChart .bar_chart_container {
+        padding: 0;
+    }
+
+    .revenui-gen {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+        color: white;
+    }
+
+    .revenui-gen-data {
+        display: flex;
+    }
+
+    .revenui-gen>div:first-child {
+        flex-grow: 1;
+    }
+
+    .revenui-gen>div:last-child {
+        flex-grow: 1;
+    }
+
+    .revenui-gen-data>div:nth-child(1) {
+        flex-grow: 1;
+        background-color: #0a1f30;
+        border: 1px solid #01B58A;
+        border-radius: 5px;
+
+    }
+
+    .revenui-gen-data>div:nth-child(2),
+    .revenui-gen-data>div:nth-child(3) {
+        flex-grow: 1;
+        border: 1px solid #01B58A;
+        border-radius: 5px;
+    }
+
+    .revenui-gen-data>div .bar_chart_container {
+        padding: 0px;
+        overflow: unset;
+    }
+
+    .transaction_container {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+
+        .recent_transaction {
+            background-color: #0a1f30;
+            padding: 15px;
+            border-radius: 5px;
+            color: white;
+        }
+    }
+}
+@media only screen and (min-width:320px) and (max-width:500px) {
+    .revenui-gen-data{
+        flex-direction: column;
+    }
+}
